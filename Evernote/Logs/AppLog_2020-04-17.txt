@@ -1,0 +1,37 @@
+********
+* The Activity Log contains a detailed list of the steps the Evernote application performs,
+* as well as information about your account and your device. Your Note titles, tags,
+* Notebook names and occasionally Note content also may be included. We treat your
+* Activity Log data as confidential, and the terms of our Privacy Policy apply (http://evernote.com/privacy).
+*
+* You may remove anything you do not want to send us.
+********
+
+
+Log opened on 2020/04/17 20:57:38 (UTC+8:00)
+
+20:57:38 [16368] Command line: "C:\Program Files\WindowsApps\Evernote.Evernote_6.5.3847.0_x86__q4d96b2w5wcc2\VFS\Evernote.exe" 
+20:57:38 [16368] Changed TEMP environment variable
+20:57:38 [16368] * from: "C:\Users\USER\AppData\Local\Temp"
+20:57:38 [16368] *   to: "C:\Users\USER\Evernote\TEMP"
+20:57:39 [16368] Evernote for Windows 6.5.0.3847 (303847) Prerelease
+20:57:39 [16368] Client info: Evernote Windows/303847 (en-US, MWS); Windows/10.0.18363 (Win64);
+20:57:39 [16368] Common Editor: ce-1.0.29.918-develop-win (4d4613b4615395ea068d7fef3f90fa9549dda498)
+20:57:39 [16368] Bootstrap info: Evernote (loadedBundled)
+20:57:43 [16368] Created SendTo shortcut:
+20:57:43 [16368] * link: "C:\Users\USER\AppData\Roaming\Microsoft\Windows\SendTo\Evernote.lnk"
+20:57:43 [16368] * path: "C:\Program Files\WindowsApps\Evernote.Evernote_6.5.3847.0_x86__q4d96b2w5wcc2\VFS\Evernote.exe"
+20:57:44 [16048] Requesting bootstrap info from "www.evernote.com" (en-US)
+20:57:44 [16048] 0% Connecting to www.evernote.com/edam/user
+20:57:46 [16048] 0% EDAMUserException: errorCode=0 parameter="local: userStore.checkVersion"
+20:57:46 [16048] Bootstrap info: request to "www.evernote.com" failed, error: timeout
+20:57:46 [16368] Could not retrieve fresh bootstrap info, assuming service host "www.evernote.com"
+20:57:46 [16368] Setting the service host to "www.evernote.com"
+20:57:47 [16048] Requesting bootstrap info from "www.evernote.com" (en-US)
+20:57:47 [16048] 0% EDAMUserException: errorCode=0 parameter="local: userStore.checkVersion"
+20:57:47 [16048] Bootstrap info: request to "www.evernote.com" failed, error: timeout
+21:02:21 [620] Requesting OpenID availability: https://www.evernote.com/openid/enabled
+21:02:21 [620] * enabled: YES
+
+Log closed on 2020/04/17 21:02:23 (UTC+8:00)
+

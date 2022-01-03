@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   font-family:  Georgia, 'Times New Roman',Times, serif;
+   background-color:palevioletred;
+}
+/* Navbar */
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(109, 104, 104, 0.5);
+    position: relative;
+    top: 0;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+    background-color: rgba(109, 104, 104, 0.5);
+}
+.navbar ul li a:hover{
+    border-bottom:2px solid black;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+  }
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+/* Expe
+rience Section */
+#Experience{
+    display: flex;
+    flex-direction: column;
+}
+#Experience h1{
+    text-align: center;
+    margin: 50px;
+    font-size: 5rem;
+    text-shadow: 4px 4px rgb(245, 74, 245);
+    position: relative;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes move {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%   {left:0px; top:0px;}
+    75%  {left:-200px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+#Experience h2{
+    text-align: center;
+    font-size: 2rem;
+    text-shadow: 4px 4px rgb(245, 74, 245);
+    margin: 40px;
+}
+#Experience img{
+    width: 100px;
+    height: 150px;
+    margin-left: 150px;
+    margin-bottom: -10px;
+}
+.columns{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 50px;
+}
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: silver;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 20px;
+}
+.box p{
+    background-color: silver;
+    font-size: 1 rem;
+    margin-top: 10px;
+    text-align: justify;
+    text-decoration-style: none;
+}

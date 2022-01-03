@@ -1,0 +1,84 @@
+*{
+   box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:palevioletred;
+}
+/* Family Section */
+
+#family {
+    display: flex;
+    flex-direction: column;
+    
+}
+#family h1{
+    margin: 60px;
+    text-align: center;
+    font-size: 5rem;
+    text-shadow: 2px 2px rgb(245, 74, 245);
+}
+body {margin:0}
+
+.icon-bar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+  }
+  .icon-bar a {
+    float: left;
+    width: 20%;
+    display: block;
+    text-align: center;
+    padding: 16px 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 25px;
+  }
+  .icon-bar a:hover {
+    background-color: dimgray;
+  }
+  .active {
+    background-color: crimson;
+  }
+.image{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.image img{
+    width: 320px;
+    height: 340px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+.image img:hover{
+    background-color: dimgray;
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.text{
+    text-align: center;
+    padding: 10px 20px;
+    bottom: 60px;
+}
+.video{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  width: 320px;
+  height: 260px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.video:hover{
+  background-color: dimgray;
+  cursor: pointer;
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
